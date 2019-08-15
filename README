@@ -1,0 +1,61 @@
+Program: get_data.sh
+uthor: Matias Lin <matiasenoclin@gmail.com>
+Date: 08/12/2019
+********************************************************************************
+
+Program Description:
+--------------------
+This program allows the user to build their own dataset of images extracted from
+Google Images. Expect the data to be as good as Google Images can be. This
+program is meant just for prototypes or other cases where you need large amounts
+of data and quality of images is not a priority.
+
+Installation:
+-------------
+#TODO put it up in GitHub
+
+Usage:
+------
+1) To execute the program enter the following command:
+
+  '$ ./get_data.sh' or '$ bash get_data.sh'
+
+2) This will promt the following message:
+
+  ######################################################################################
+  
+   Welcome!
+   This program will allow you to create your own dataset extracted from Google images.
+   USAGE: Just help us out with the following information and we'll do the rest.
+   RECOMMENDATIONS: Look up the query beforehand in Google Images.
+   NOTE: Expect the quality of the images to be as good as a Google Images search.
+  
+  ######################################################################################
+
+3) The program will ask you to specify the following information:
+  - The search query.
+  - The format of the images.
+  - If you want to include related images.
+  - The limit of images per category.
+  - (if the user decided to include related images) Max number of related 
+  categories.
+
+4) The program will now ask for confirmation before initializing the download.
+After reviewing the summary, if the user decides to continue then type "y",
+otherwise, enter "n".
+
+5) Now the program will go a series of automated processes which might take a
+few minutes depending of how many images you've specified. Once finished, the
+program will output the PATH to the folder where the dataset is found. 
+
+The name of your dataset will have the following pattern: "*FORMAT*_*QUERY*".
+Inside the folder you will find:
+  - A download log.
+  - Folders categorized accordingly with their search queries.
+  - A folder named "total" containing all the images for easy manipualtion.
+  - A .tar file containing all the images.
+
+Note:
+-----
+The user can run several instances of this script at the same time.
+Please execute this program in the directory where the script is.
