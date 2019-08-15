@@ -18,11 +18,12 @@ To clone this repository, use the following command:
 
 Usage:
 ------
-1) To execute the program enter the following command:
+1) To execute the program cd into the directory with the 'get_data.sh' file and 
+enter either of the following commands:
 
   '$ ./get_data.sh' or '$ bash get_data.sh'
 
-2) This will promt the following message:
+2) This will prompt the following message:
 
   ######################################################################################
   
@@ -46,9 +47,9 @@ Usage:
 After reviewing the summary, if the user decides to continue then type "y",
 otherwise, enter "n".
 
-5) Now the program will go a series of automated processes which might take a
-few minutes depending of how many images you've specified. Once finished, the
-program will output the PATH to the folder where the dataset is found. 
+5) Now the program will undergo a series of automated processes which might take
+a few minutes depending of how many images the user specified. Once finished,
+the program will output the PATH to the folder where the dataset is found. 
 
 The name of your dataset will have the following pattern: "*FORMAT*_*QUERY*".
 Inside the folder you will find:
