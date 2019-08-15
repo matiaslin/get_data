@@ -1,5 +1,5 @@
 Program: get_data.sh
-uthor: Matias Lin <matiasenoclin@gmail.com>
+Author: Matias Lin <matiasenoclin@gmail.com>
 Date: 08/12/2019
 ********************************************************************************
 
@@ -12,7 +12,9 @@ of data and quality of images is not a priority.
 
 Installation:
 -------------
-#TODO put it up in GitHub
+To clone this repository, use the following command:
+
+        '$ git clone https://github.com/matiaslin/get_data.git'
 
 Usage:
 ------
@@ -59,3 +61,10 @@ Note:
 -----
 The user can run several instances of this script at the same time.
 Please execute this program in the directory where the script is.
+
+Disclaimer:
+-----------
+In order to download the Google Images, this script is using the following
+python program "google-images-download". You can find the license to it
+in mining/google-images-download/Licence.txt.
+(Repo available here: https://github.com/hardikvasa/google-images-download)
