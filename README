@@ -7,8 +7,8 @@ Program Description:
 --------------------
 This program allows the user to build their own dataset of images extracted from
 Google Images. Expect the data to be as good as Google Images can be. This
-program is meant just for prototypes or other cases where you need large amounts
-of data and quality of images is not a priority.
+program is meant just for prototypes or other cases where large amounts of data
+is more important than the quality of images.
 
 Installation:
 -------------
