@@ -55,7 +55,7 @@ The name of your dataset will have the following pattern: "*FORMAT*_*QUERY*".
 Inside the folder you will find:
   - A download log.
   - Folders categorized accordingly with their search queries.
-  - A folder named "total" containing all the images for easy manipualtion.
+  - A folder named "total" containing all the images for easy manipulation.
   - A .tar file containing all the images.
 
 Note:
