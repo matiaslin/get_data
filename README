@@ -16,6 +16,8 @@ To clone this repository, use the following command:
 
         '$ git clone https://github.com/matiaslin/get_data.git'
 
+Note: The 'chromedriver.exe' should be according to the user's system.
+
 Usage:
 ------
 1) To execute the program cd into the directory with the 'get_data.sh' file and 
