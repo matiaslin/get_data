@@ -222,10 +222,14 @@ echo Finalizing everything...
 mv $log_file $dir_name/
 target_dir=$DIR/dataset_get_data/
 mkdir -p $target_dir 
-mv $dir_name/ $target_dir$format'_'$x
+# Creating date folder
+date=$(date +"%m-%d-%y")
+target_dir=$target_dir/$date
+mkdir -p $target_dir 
+mv $dir_name/ $target_dir/$format'_'$x
 # Creating tar files
-cd $target_dir$format'_'$x && tar -cvf $format'_'$x'.tar' total/*
+cd $target_dir/$format'_'$x && tar -cvf $format'_'$x'.tar' total/*
 
 echo
-echo Your images are ready! Go to $DIR/dataset_get_data/$format'_'$x/total/
+echo Your images are ready! Go to $DIR/dataset_get_data/$date/$format'_'$x/total/
 echo Note: You may have to run additional filters.
