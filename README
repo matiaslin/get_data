@@ -71,3 +71,9 @@ In order to download the Google Images, this script is using the following
 python program "google-images-download". You can find the license to it
 in mining/google-images-download/Licence.txt.
 (Repo available here: https://github.com/hardikvasa/google-images-download)
+
+Additional Information:
+-----------------------
+Consider using the "partition.sh" script to manage your recently created dataset.
+It will allow you to sort your dataset into training and validation folders.
+(Repo available here: https://github.com/matiaslin/partition)
