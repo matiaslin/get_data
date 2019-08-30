@@ -1,5 +1,7 @@
 Program: get_data.sh
+
 Author: Matias Lin <matiasenoclin@gmail.com>
+
 Date: 08/12/2019
 ********************************************************************************
 
@@ -22,20 +24,21 @@ Usage:
 ------
 1) To execute the program cd into the directory with the 'get_data.sh' file and 
 enter either of the following commands:
-
-  '$ ./get_data.sh' or '$ bash get_data.sh'
+ ```
+ $ ./get_data.sh or $ bash get_data.sh
+ ```
 
 2) This will prompt the following message:
 
-  ######################################################################################
-  
-   Welcome!
-   This program will allow you to create your own dataset extracted from Google images.
-   USAGE: Just help us out with the following information and we'll do the rest.
-   RECOMMENDATIONS: Look up the query beforehand in Google Images.
-   NOTE: Expect the quality of the images to be as good as a Google Images search.
-  
-  ######################################################################################
+  >######################################################################################
+  >
+  > Welcome!
+  > This program will allow you to create your own dataset extracted from Google images.
+  > USAGE: Just help us out with the following information and we'll do the rest.
+  > RECOMMENDATIONS: Look up the query beforehand in Google Images.
+  > NOTE: Expect the quality of the images to be as good as a Google Images search.
+  >
+  >######################################################################################
 
 3) The program will ask you to specify the following information:
   - The search query.
