@@ -65,12 +65,14 @@ Note:
 The user can run several instances of this script at the same time.
 Please execute this program in the directory where the script is.
 
-Disclaimer:
------------
+Copyrights and License:
+-----------------------
 In order to download the Google Images, this script is using the following
 python program "google-images-download". You can find the license to it
 in mining/google-images-download/Licence.txt.
 (Repo available here: https://github.com/hardikvasa/google-images-download)
+
+This script is licensed under the [MIT License](LICENSE).
 
 Additional Information:
 -----------------------
