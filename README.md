@@ -1,6 +1,6 @@
 Program: get_data.sh
 
-Author: Matias Lin <matiasenoclin@gmail.com>
+Author: Matias Lin <<matiasenoclin@gmail.com>>
 
 Date: 08/12/2019
 ********************************************************************************
